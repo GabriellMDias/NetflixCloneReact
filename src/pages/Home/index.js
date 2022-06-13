@@ -11,6 +11,7 @@ export default () => {
   const [featuredData, setFeaturedData] = useState(null);
   const [blackHeader, setBlackHeader] = useState(false);
 
+
   useEffect(()=>{
     const loadAll = async () => {
       let list = await Tmdb.getHomeList();

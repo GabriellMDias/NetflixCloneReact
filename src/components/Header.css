@@ -37,4 +37,8 @@ header.black {
 .logout{
     color:rgb(216, 31, 38);
     text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
 }

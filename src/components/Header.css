@@ -4,7 +4,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,4 +32,9 @@ header.black {
 .header--user img{
     height: 100%;
     border-radius: 3px;
+}
+
+.logout{
+    color:rgb(216, 31, 38);
+    text-decoration: none;
 }

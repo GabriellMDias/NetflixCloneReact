@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 export default ({black}) => {
     return (
@@ -10,9 +11,11 @@ export default ({black}) => {
                 </a>
             </div>
             <div className="header--user">
+                
                 <a href="/">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="user"></img>
-                </a>
+                </a><br></br>
+                <Link to="/Login" className="logout"> Sair </Link>
             </div>
         </header>
     )
